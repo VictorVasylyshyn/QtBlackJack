@@ -85,10 +85,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="blackJ.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="blackJ.h" />
+    <ClInclude Include="card.h" />
+    <ClInclude Include="deck.h" />
+    <QtMoc Include="mainWindow.h" />
     <ClInclude Include="rank.h" />
+    <QtMoc Include="window.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
